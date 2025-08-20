@@ -1,7 +1,7 @@
 // Create a class Person with attributes name and age. Write a method to display this information.
-class Person {
-    name: string;
-    age: number;
+export class Person {
+    public name: string;
+    public age: number;
 
     constructor(name: string, age: number) {
         this.name = name;
@@ -15,4 +15,4 @@ class Person {
 
 const person = new Person("Nguyễn Bùi Tấn Hiển", 21);
 
-person.display();
+// person.display();
