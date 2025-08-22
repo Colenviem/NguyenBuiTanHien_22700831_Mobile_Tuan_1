@@ -15,4 +15,5 @@ const products = [
     new Product("Mouse", 80)
 ];
 console.log("Products with price > 100:");
-products.filter(p => p.price > 100).forEach(p => console.log(`Name: ${p.name}, price: ${p.price}`));
+products.filter(p => p.price > 100)
+    .forEach(p => console.log(`Name: ${p.name}, price: ${p.price}`));
